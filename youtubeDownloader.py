@@ -9,7 +9,7 @@ link = argv[0]
 yt = YouTube(link)
 # creates YouTube-Object from this link 
 
-print("Title: ", yt.title)
+print("Title: " + yt.title)
 print("Views: " + str(yt.views))
 print("Views: " + str(yt.views))
 
